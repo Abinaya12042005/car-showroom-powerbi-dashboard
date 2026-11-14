@@ -23,6 +23,15 @@ An interactive 4-page Power BI dashboard for a car showroom: sales performance, 
 3. **Sales Team**: leaderboard, revenue vs salary, tenure vs cars sold, executive scorecard with slab-based incentive
 4. **MIS Report**: month-end summary, working days, revenue per working day, weekday holiday impact, delivery time, payment due date, MoM growth
 
+## Excel Practice Stage
+Before building the dashboard, I practiced date and time functions manually on a single sheet with sales, employee, warranty and holiday data:
+- TODAY / NOW / DAY / MONTH / YEAR
+- EDATE (warranty expiry, free service due, probation end)
+- EOMONTH (payment due at month end)
+- NETWORKDAYS / WORKDAY (working days, delivery date with a holiday list)
+- DATEDIFF, IF, VLOOKUP (tenure, warranty status, executive lookup)
+These formulas were then rebuilt in DAX for the Power BI model.
+
 ## Tech Stack
 - Python (Pandas, NumPy) in Google Colab for dataset generation
 - Excel for date-function practice (TODAY, NOW, EDATE, EOMONTH, NETWORKDAYS, WORKDAY)
