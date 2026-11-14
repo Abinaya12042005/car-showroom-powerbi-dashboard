@@ -6,16 +6,16 @@ An interactive 4-page Power BI dashboard for a car showroom: sales performance, 
 ## Dashboard Preview
 
 ### 1. Sales Overview
-![Sales Overview](screenshots/01-sales-overview.png)
+![Sales Overview](screenshots01-sales-overview.png)
 
 ### 2. Warranty Tracker
-![Warranty Tracker](screenshots/02-warranty-tracker.png)
+![Warranty Tracker](screenshots02-warranty-tracker.png)
 
 ### 3. Sales Team
-![Sales Team](screenshots/03-sales-team.png)
+![Sales Team](screenshots03-sales-team.png)
 
 ### 4. MIS Report
-![MIS Report](screenshots/04-mis-report.png)
+![MIS Report](screenshots04-mis-report.png)
 
 ## Pages
 1. **Sales Overview**: revenue, cars sold, avg price, active warranties, monthly trend, top branches, model and fuel mix, top 5 sales executives, key insights
